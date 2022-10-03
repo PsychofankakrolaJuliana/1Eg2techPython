@@ -22,9 +22,12 @@ else:
 # Zad.4
 limit = 20
 waga = int(input("Podaj wage w tonach: "))
-if waga < 20:
+if waga <= 20:
   print("Mozesz wjechac")
 else:
   print("Ni mozesz wjechac")
 
 # Zad.5
+a = int(input("Daj liczbe: "))
+b = int(input("Daj liczbe: "))
+c = int(input("Daj liczbe: "))
