@@ -44,4 +44,14 @@
 # for i in range(n-1):
 #   x = int(input("Podaj liczbe: "))
 #   suma = suma - x
-#   print("Nie podałeś: ",suma, end=" ")
+# print("Nie podałeś: ",suma)
+
+# Zad.6
+# a = 0
+# b = 1
+# n = int(input("Podaj ile razy: "))
+# print(a, end=" ")
+# print(b, end=" ")
+# for i in range(n+1):
+#   a, b=b, a+b
+#   print(b, end=" ")
