@@ -51,3 +51,26 @@
 #       if min > i :
 #         min = i
 #   print("Najmniejsza liczba to ", min)
+
+# Zad.5
+# a = int(input("Daj liczbe: "))
+# b = int(input("Daj drugom liczbe: "))
+# c = int(input("Daj trzeciom liczbe: "))
+# if c<a+b and a<b+c and b<a+c :
+#   print("Podane liczby spelniaja nierownosc trojkata")
+# else :
+#   print("Liczby nie spelniaja nierownosci trojkata")
+
+# Zad.6
+# a = int(input("Daj przyprostokatna: "))
+# b = int(input("Daj drugom przyprostokatna: "))
+# c = int(input("Daj przeciwprostokatna: "))
+# if c<a+b :
+#   if c**2==a**2+b**2 :
+#     print("Trojkat bedzie prostokatny")
+#   elif c**2<a**2+b**2 :
+#     print("Trojkat bedzie ostrokatny")
+#   else :
+#     print("Trojkat bedzie rozwartokatny")
+# else :
+#   print("Z podanych bokow nie da sie utworzyc trojkata")
