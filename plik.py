@@ -13,4 +13,7 @@
 # for i in range(5,50) :
 #   print(i*2)
 # Pętle for potęg cyfr: WY: 0, 1, 4, 9, 16 .. 81 (2 sposoby printa)
-for i in range(0,82,) : print(i)
+# for i in range(0,10) :
+#   print(i**2)
+# for i in range(0,10) :
+#   print(i*i)
