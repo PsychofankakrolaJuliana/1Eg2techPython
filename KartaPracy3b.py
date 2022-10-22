@@ -38,6 +38,10 @@
 # print(suma)
 
 # Zad.8
-w0 = int(input("Podaj kwote: "))
-l = float(input("Podaj liczbe z dokładnoscia do pol roku: "))
-for i in range()
+w0 = float(input("Podaj kwote: "))
+l = int(input("Podaj liczbe z dokładnoscia do pol roku: "))
+m = l*12
+w = w0
+for i in range(1,m) :
+  w = w + 0.005*w
+print(round(w,2))
