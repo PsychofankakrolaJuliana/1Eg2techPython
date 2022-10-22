@@ -17,5 +17,27 @@
 #     print(i, end=" ")
 
 # Zad.5
-n = int(input("Podaj ile liczb podasz: "))
-for i in range(0,n) :
+# n = int(input("Podaj ile liczb podasz: "))
+# suma = 0
+# for i in range(0,n) :
+#   a = int(input("Podaj liczbe: "))
+#   suma = suma+a
+# print(suma)
+
+# Zad.6
+# k = int(input("Podaj ile liczb: "))
+# for i in range(0,(k+1)*2,2) :
+#   suma=i+i
+# print(suma)
+
+# Zad.7
+# m = int(input("Podaj ile liczb: "))
+# suma = 0
+# for i in range(11,(11+m*2),2) :
+#   suma=suma+i
+# print(suma)
+
+# Zad.8
+w0 = int(input("Podaj kwote: "))
+l = float(input("Podaj liczbe z dokładnoscia do pol roku: "))
+for i in range()
