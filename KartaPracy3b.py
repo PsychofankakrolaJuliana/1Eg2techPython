@@ -38,13 +38,13 @@
 # print(suma)
 
 # Zad.8
-# w0 = float(input("Podaj kwote: "))
-# l = int(input("Podaj liczbe z dokładnoscia do pol roku: "))
-# m = l*12
-# w = w0
+# kpo = int(input("Podaj kwote: "))
+# l = float(input("Podaj liczbe z dokładnoscia do pol roku: "))
+# m = int(l*12)
+# kko = kpo
 # for i in range(1,m) :
-#   w = w + 0.005*w
-# print(round(w,2))
+#   kko = kko + 0.005*kko
+# print(round(kko,2))
 
 # # Zad.9
 # n = int(input("Podaj ile liczb: "))
@@ -56,7 +56,7 @@
 # print(suma)
 
 # Zad.10
-# for i in range(1,1000):
+# for i in range(1,1001):
 #   if i**0.5==i%10 or i**0.5 == i%100 :
 #     print(i, i**0.5)
 
@@ -68,6 +68,6 @@
 #   ost_cyf=napis[-1]+".0"
 #   a = round(i**0.5,1)
 #   ost_cyf_l = float(ost_cyf)
-#   #print(a, ost_cyf_l)
+#   print(a, ost_cyf_l)
 #   if ost_cyf_l == a :
 #     print(i,ost_cyf_l)
