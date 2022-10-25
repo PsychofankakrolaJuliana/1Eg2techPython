@@ -56,13 +56,18 @@
 # print(suma)
 
 # Zad.10
-a = 0
-b = 0
-for i in range(1,1001) :
-  napis = str(i)
-  ost_cyf=napis[-1]+".0"
-  a = round(i**0.5,1)
-  ost_cyf_l = float(ost_cyf)
-  #print(a, ost_cyf_l)
-  if ost_cyf_l == a :
-    print(i,ost_cyf_l)
+for i in range(1,1000):
+  if i**0.5==i%10 or i**0.5 == i%100 :
+    print(i)
+
+# Sposob dziwny
+# a = 0
+# b = 0
+# for i in range(1,1001) :
+#   napis = str(i)
+#   ost_cyf=napis[-1]+".0"
+#   a = round(i**0.5,1)
+#   ost_cyf_l = float(ost_cyf)
+#   #print(a, ost_cyf_l)
+#   if ost_cyf_l == a :
+#     print(i,ost_cyf_l)
