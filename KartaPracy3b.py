@@ -56,9 +56,9 @@
 # print(suma)
 
 # Zad.10
-for i in range(1,1000):
-  if i**0.5==i%10 or i**0.5 == i%100 :
-    print(i)
+# for i in range(1,1000):
+#   if i**0.5==i%10 or i**0.5 == i%100 :
+#     print(i, i**0.5)
 
 # Sposob dziwny
 # a = 0
