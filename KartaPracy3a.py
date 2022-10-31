@@ -40,17 +40,17 @@
 # **
 # ***
 n=int(input("Podaj n: "))
-h=int(input("Podaj h: "))
+# h=int(input("Podaj h: "))
 for i in range(n):
   for j in range(i+1):
     print("*", end=" ")
   print()
-print("* "*h)
+# print("* "*h)
 
 # ***
 # **
 # *
-for i in range(n):
-   for j in range(n-i):
-     print("*", end=" ")
-   print()
+# for i in range(n):
+#    for j in range(n-i):
+#      print("*", end=" ")
+#    print()
