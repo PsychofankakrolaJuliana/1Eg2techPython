@@ -22,5 +22,30 @@
 #   print("*-|"*i, end=" ")
 
 # Zad.2
+# n = int(input("Podaj n: "))
+# for i in range(1,n):
+#   for j in range(i,i+1):
+#     if j%2==0 :
+#       print("*"*j,"--", end=" ")
+#     else:
+#       print("*"*j,"||", end=" ")
+  # Zad.3
+# n = int(input("Podaj n: "))
+# for i in range(n):
+#   print
+#   if i%2==1:
+#     print("|"*i,"*", end=" ")
+#   else:
+#     print("-"*i, "*", end=" ")
+# Zad.4
 n = int(input("Podaj n: "))
-for i in range()
+for i in range(n):
+  if i==0 or i==n-1:
+    print("* "*n)
+  elif i==n:
+    print("*", " "*n%2, "*", " "*n%2 , "*")
+  else:
+    print("*", " "*n, "*")
+  # for j in range(i):
+  #   print("* "*n, end=" ")
+  #   print()
