@@ -42,10 +42,11 @@ n = int(input("Podaj n: "))
 for i in range(n):
   if i==0 or i==n-1:
     print("* "*n)
-  elif i==n:
-    print("*", " "*n%2, "*", " "*n%2 , "*")
   else:
     print("*", " "*n, "*")
+  # if n%2==0:
+  #   if i==5 :
+  #     print("*", " "*4, "*", " "*4, "*")
   # for j in range(i):
   #   print("* "*n, end=" ")
   #   print()
