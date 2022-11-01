@@ -37,16 +37,12 @@
 #     print("|"*i,"*", end=" ")
 #   else:
 #     print("-"*i, "*", end=" ")
-# Zad.4
-n = int(input("Podaj n: "))
-for i in range(n):
-  if i==0 or i==n-1:
-    print("* "*n)
-  else:
-    print("*", " "*n, "*")
-  # if n%2==0:
-  #   if i==5 :
-  #     print("*", " "*4, "*", " "*4, "*")
-  # for j in range(i):
-  #   print("* "*n, end=" ")
-  #   print()
+# Zad.7
+# n = int(input("Podaj n: "))
+# for i in range(1,n+1):
+#   for j in range(1,n+1):
+#     if i==1 or j==1 or i==n or j==n or (n%2>0 and i==n/2+0.5 and j==n/2+0.5) or (n%2==0 and i==n/2 and j==n/2):
+#       print("*", end=" ")
+#     else:
+#       print(" ", end=" ")
+#   print()
