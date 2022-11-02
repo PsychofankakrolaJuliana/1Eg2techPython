@@ -18,18 +18,18 @@
 #       print("--"*i, end=" ")
 #   else :
 #       print("|"*i, end=" ")
-# Zad.4
+# Zad.5
+n = int(input("Podaj n: "))
+for i in range(1)
+# Zad.7
 # n = int(input("Podaj n: "))
-# print("*")
-# for i in range(0,n) :
-#   print(" "*n, "*", end=" ")
-#   print(" "*i, end=" ")
-#   print("*")
-# for j in range(n,0,-1):
-#   print(" "*n, "*", end=" ")
-#   print(" "*j, end=" ")
-#   print("*")
-# print(" "*j, "*")
+# for i in range(1,n+1):
+#   for j in range(1,n+1):
+#     if i==1 or j==1 or i==n or j==n or (n%2>0 and i==n/2+0.5 and j==n/2+0.5) or (n%2==0 and i==n/2 and j==n/2):
+#       print("*", end=" ")
+#     else:
+#       print(" ", end=" ")
+#   print()
 
 # for i in range(1,11):
 #   for j in range(1,11) :
@@ -45,7 +45,7 @@
 #   for j in range(i+1):
 #     print("*", end=" ")
 #   print()
-# print("* "*h)
+# # print("* "*h)
 
 # ***
 # **
@@ -54,3 +54,14 @@
 #    for j in range(n-i):
 #      print("*", end=" ")
 #    print()
+
+#   *
+#  **
+# ***
+# n = int(input("Podaj n: "))
+# for i in range(n):
+#   for j in range(n-i-1):
+#     print(" ", end=" ")
+#   for k in range(n-i-1,n):
+#     print("*", end=" ")
+#   print()
