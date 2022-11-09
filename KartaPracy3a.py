@@ -21,11 +21,11 @@
 # Zad.4
 n = int(input("Podaj n: "))
 for i in range(1,n+1):
-  for j in range(1,n+1):
-    if (n%2==0 and i==n/2) or (n%2>0 and i==n/2+0.5) :
+  for j in range(1,n-i) :
+    if j==1 and (n%2==0 and i==n/2) or (n%2>0 and i==n/2+0.5) :
+      print("*",  end=" ")
+    elif i==1 and (n%2==0 and j==n/2) or (n%2>0 and j==n/2+0.5):
       print("*", end=" ")
-    # elif (n%2==0 and j==n/2) or (n%2>0 and j==n/2+0.5):
-      # print("*", end=" ")
     else:
       print("-", end=" ")
   print()
