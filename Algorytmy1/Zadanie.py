@@ -45,15 +45,16 @@
 k = int(input("Podaj ile chcesz liczb pierwszych: "))
 x = 2
 while 1:
-  for i in range(2,x):
+  flaga = True
+  for i in range(2, int(x**0.5)+1):
     if x % i == 0:
-      flaga == False
+      flaga = False
   if flaga:
     print(x, end=" ")
     k = k-1
-  if k == 0:
-    break
-x = x+1
+    if k == 0:
+      break
+  x = x+1
 
 # SPLIT
 # m = "Niech zyje krol Julian".split()
