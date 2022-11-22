@@ -35,14 +35,15 @@
 # 2. Generator liczb pierwszych w przedziale [p,q]
 from math import sqrt
 p, q = map(int, input("Podaj 2 liczby: ").split())
-k = 1
+k = 1.0
+l=0
 for i in range(p,q+1):
   flaga = True
   k = sqrt(i)
-  l=round(k,1)
+  l=round(k,0)
   l=l+1
   print(l)
-  for j in range(2, k):
+  for j in range(2, l):
     if i % j == 0:
       flaga = False
   if flaga==True:
