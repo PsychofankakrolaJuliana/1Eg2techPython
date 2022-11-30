@@ -24,3 +24,12 @@
 # print(c)
 
 # Sposób 2
+# a = int(input("Podaj a: "))
+# b = int(input("Podaj b: "))
+# c = a*b
+# while a!=b:
+#   if a>b:
+#     a-=b
+#   elif b>a:
+#     b-=a
+# print(c//a)
