@@ -12,6 +12,23 @@
 #   print(chr(i), end=" ")
 
 # Jak wydobyć literki z napisu
-napis = "Krecio"
-print(len(napis))
-print(napis[0])
+# napis = "Kret"
+# print(len(napis))
+# print(napis[0])
+
+# pętla wyciągająca  znapisu literki
+# napis = input("Napisz napis: ")
+# for i in range(len(napis)):
+#   print(napis[i], end=" ")
+
+# napisz pętle wyciągającą kody ascii z napisu
+# napis = input("Napisz napis: ")
+# for i in range(len(napis)):
+#   print(ord(napis[i]))
+
+# zaszyfruj napis cezarem w kluczu = 3
+# napis = input("Napisz napis: ")
+# szyfr = ""
+# for i in range(len(napis)):
+#   szyfr = szyfr + chr((ord(napis[i]) - 65 + 3) % 26)
+# print(szyfr)
