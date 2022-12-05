@@ -30,5 +30,5 @@
 # napis = input("Napisz napis: ")
 # szyfr = ""
 # for i in range(len(napis)):
-#   szyfr = szyfr + chr((ord(napis[i]) - 65 + 3) % 26)
+#   szyfr = szyfr + chr(65 + (ord(napis[i]) - 65 + 3) % 26)
 # print(szyfr)
