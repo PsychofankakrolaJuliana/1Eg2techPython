@@ -33,11 +33,11 @@
 # else:
 #   print("Podane liczby nie są względnie pierwsze")
 # Zad.5
-m = int(input("Podaj liczbe: "))
-for i in range(10,19):
-  x==n
-  y==i
-  while y >0:
-    x,y=y, x%y
-  nwd = x
-  print()
+# m = int(input("Podaj liczbe: "))
+# for i in range(10,19):
+#   x=m
+#   y=i
+#   while y >0:
+#     x,y=y, x%y
+#   nwd = x
+#   print(f"Mamy parke : {m}, {i}")
