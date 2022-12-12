@@ -1,7 +1,7 @@
 # Zad.1
 x  = int(input("Podaj liczbę: "))
-x.split()
 suma=0
-for i in range(x):
-  suma=x[i]+suma
+while x>0:
+  suma=suma+x%10
+  x=x//10
 print(suma)
