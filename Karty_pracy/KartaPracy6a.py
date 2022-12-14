@@ -41,3 +41,20 @@
 #     x,y=y, x%y
 #   nwd = x
 #   print(f"Mamy parke : {m}, {i}")
+# Zad.6
+# a = int(input("Podaj liczbę: "))
+# b = int(input("Podaj drugą liczbe: "))
+# x=a
+# y=b
+# while y>0:
+#   if a>b: a=a-b
+#   elif b>a: b=b-a
+# c=a//x
+# d=b//x
+# print(f"{a}/{b}={c}/{c}")
+
+# Zad.7
+a = int(input("Podaj licznik: "))
+b = int(input("Podaj mianownik: "))
+c=a
+d=b
