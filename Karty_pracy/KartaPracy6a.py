@@ -72,3 +72,24 @@
 #       suma2+=k
 #   if suma1 == suma2:
 #     print(f"({suma 1},{suma2})")
+# Zad.9
+# def czy_pierwsza(n):
+#   for i in range(2,n):
+#     if n%i==0:
+#       return False
+#   return True
+# for i in range(10,100):
+#   for j in range(2,i):
+#     if i%j==0:
+#       if czy_pierwsza(j) and czy_pierwsza(i//j):
+#         print(i, end=" ")
+#         break 
+# Zad.10
+n = int(input("Podaj liczbę: "))
+for i in range(2,n):
+  if n%i==0:
+    print("Liczba nie jest pierwsza")
+    exit(0)
+  else:
+    print("Podana liczba jest pierwsza")
+    exit(0)
