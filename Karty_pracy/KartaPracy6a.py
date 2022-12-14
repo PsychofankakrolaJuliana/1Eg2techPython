@@ -51,10 +51,15 @@
 #   elif b>a: b=b-a
 # c=a//x
 # d=b//x
-# print(f"{a}/{b}={c}/{c}")
+# print(f"{a}/{b}={c}/{d}")
 
 # Zad.7
 a = int(input("Podaj licznik: "))
 b = int(input("Podaj mianownik: "))
 c=a
 d=b
+while c>0:
+if c>d: c=c-d
+elif d>c: d=d-c
+x=a/c
+y=b/c
