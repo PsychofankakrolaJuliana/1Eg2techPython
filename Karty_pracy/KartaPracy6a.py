@@ -85,10 +85,16 @@
 #         print(i, end=" ")
 #         break 
 # Zad.10
-n = int(input("Podaj liczbę: "))
-for i in range(2,n):
-  if n%i==0:
-    print("Liczba nie jest pierwsza")
-    break
-else:
-  
+# n = int(input("Podaj liczbę: "))
+# for i in range(2,n):
+#   if n%i==0:
+#     print("Liczba nie jest pierwsza")
+#     break
+# else:
+#   a=n+2
+#   for i in range(2,a):
+#     if a%i==0:
+#       print("Liczba nie jest pierwsza")
+#       break
+#   else:
+#     print("Podane liczby som bliźniacze")
