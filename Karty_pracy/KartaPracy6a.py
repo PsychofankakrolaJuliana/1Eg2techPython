@@ -52,14 +52,23 @@
 # c=a//x
 # d=b//x
 # print(f"{a}/{b}={c}/{d}")
-
 # Zad.7
-a = int(input("Podaj licznik: "))
-b = int(input("Podaj mianownik: "))
-c=a
-d=b
-while c>0:
-if c>d: c=c-d
-elif d>c: d=d-c
-x=a/c
-y=b/c
+# a = int(input("Podaj licznik: "))
+# b = int(input("Podaj mianownik: "))
+# reszta = 0
+# if a/b!=0:
+#   c=a/b
+#   round(c,-1)
+# print(f"({a}/{b}={c},{c}/{10})")
+# Zad.8
+# for i in range(2,10000):
+#   suma=0
+#   for j in range(1,i):
+#     if i%j==0:
+#       suma1 +=j
+#   suma2=0
+#   for k in range(1,suma1):
+#     if suma1%k==0:
+#       suma2+=k
+#   if suma1 == suma2:
+#     print(f"({suma 1},{suma2})")
