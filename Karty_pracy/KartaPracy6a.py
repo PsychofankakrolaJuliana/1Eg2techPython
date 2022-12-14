@@ -89,7 +89,6 @@ n = int(input("Podaj liczbę: "))
 for i in range(2,n):
   if n%i==0:
     print("Liczba nie jest pierwsza")
-    exit(0)
-  else:
-    print("Podana liczba jest pierwsza")
-    exit(0)
+    break
+else:
+  
