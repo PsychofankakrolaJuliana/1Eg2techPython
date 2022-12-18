@@ -5,7 +5,7 @@
 #   suma=suma+x%10
 #   x=x//10
 # print(suma)
-# Zad.2
+# # Zad.2
 # n = int(input("Podaj liczbe: "))
 # for i in range(2,n):
 #   if n%i==0:
