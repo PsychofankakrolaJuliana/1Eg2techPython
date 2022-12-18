@@ -17,10 +17,15 @@
 # elif flaga==False:
 #   print("Podana liczba nie jest pierwsza")
 # Zad.3
-n = int(input("Podaj liczbe: "))
-suma=0
-for i in range(2,n):
-  if n%i==0:
-    suma+=i
-if suma==n:
-  print("Podana liczba jest doskonala")
+# n = int(input("Podaj liczbe: "))
+# suma=0
+# for i in range(1,n):
+#   if n%i==0:
+#     suma+=i
+# if suma==n:
+#   print("Podana liczba jest doskonala")
+# else:
+#   print("Podana liczba nie jest doskonala")
+# Zad.4
+a = int(input("Podaj liczbe:"))
+b = int(input("Podaj druga liczbe:"))
