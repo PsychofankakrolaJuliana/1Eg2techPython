@@ -7,11 +7,20 @@
 #   x=x//10
 # print(suma)
 # Zad.2
-a = int(input("Podaj liczbe: "))
-while a > 0:
-  for i in range(2, a):
-    if a % i == 0:
-      print("Podana liczba nie jest pierwsza")
-      break
-    else:
-      print("Podana liczba jest pierwsza")
+# a = int(input("Podaj liczbe: "))
+# flaga=True
+# for i in range(2, a):
+#   if a % i == 0:
+#     flaga=False
+# if flaga==True:
+#   print("Podana liczba jest pierwsza")
+# elif flaga==False:
+#   print("Podana liczba nie jest pierwsza")
+# Zad.3
+n = int(input("Podaj liczbe: "))
+suma=0
+for i in range(2,n):
+  if n%i==0:
+    suma+=i
+if suma==n:
+  print("Podana liczba jest doskonala")
