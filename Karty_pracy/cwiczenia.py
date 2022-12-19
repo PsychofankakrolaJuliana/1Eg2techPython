@@ -53,3 +53,16 @@
 #       y=y-x
 #     if x==0:
 #       print(i, end=" ")
+# Zad.6
+# a = int(input("Podaj licznik: "))
+# b = int(input("Podaj mianownik: "))
+# x=a
+# y=b
+# while x!=y:
+#   if x>y:
+#     x=x-y
+#   else:
+#     y=y-x
+# k=a//x
+# l=b//x
+# print(f"{a}/{b}={k}/{l}")
