@@ -43,3 +43,10 @@
 #     suma=suma+i
 #     sum=sum+1
 # print(f"Suma liczb: {suma}, a ilosc liczb to: {sum}")
+# Zad.6
+# suma=0
+# n = int(input("Podaj ile chcesz liczb: "))
+# for i in range(19,100):
+#   if i%19==0:
+#     suma=suma+i
+# print(f"Suam {n} najmniejszych liczb dwucyfrowych podzielnych przez 19 to: {suma}")
