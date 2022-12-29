@@ -10,8 +10,12 @@
 #     suma=suma+i
 # print(suma)
 # Zad.3
-x=0
-suma=0
-for i in range(10,99,-1):
-  if i%7==0:
-    x=i
+# x=0
+# suma=0
+# for i in range(10,99):
+#   if i%7==0:
+#     x=i
+# for j in range(1000,10000):
+#   if j%x==0:
+#     suma=suma+1
+# print(suma)
