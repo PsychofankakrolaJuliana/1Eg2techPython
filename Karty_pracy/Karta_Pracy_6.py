@@ -50,3 +50,11 @@
 #   if i%19==0:
 #     suma=suma+i
 # print(f"Suam {n} najmniejszych liczb dwucyfrowych podzielnych przez 19 to: {suma}")
+# Zad.7
+# suma=0
+# n = int(input("Podaj liczbe: "))
+# for i in range(1000,1000-37*n,-1):
+#   if i%37==0:
+#     suma=suma+i
+#     print(i)
+# print(f"Suma najwiekszych liczb 3-cyfrowych podzielnych przez 37 to: {suma}")
