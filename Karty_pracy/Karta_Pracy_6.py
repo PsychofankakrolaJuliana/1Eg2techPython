@@ -29,3 +29,17 @@
 #   if y>=x*2:
 #     suma=suma+1
 # print(suma)
+# Zad.5
+# suma=0
+# sum=0
+# x=0
+# y=0
+# z=0
+# for i in range(100,1000):
+#   x=i%1000
+#   y=i%100
+#   z=i%10
+#   if x>y+z:
+#     suma=suma+i
+#     sum=sum+1
+# print(f"Suma liczb: {suma}, a ilosc liczb to: {sum}")
