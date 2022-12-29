@@ -19,3 +19,13 @@
 #   if j%x==0:
 #     suma=suma+1
 # print(suma)
+# Zad.4
+# x=0 
+# y=0
+# suma = 0
+# for i in range(10,100):
+#   x=i%10
+#   y=i%100
+#   if y>=x*2:
+#     suma=suma+1
+# print(suma)
