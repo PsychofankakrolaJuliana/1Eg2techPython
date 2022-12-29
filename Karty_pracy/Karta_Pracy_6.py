@@ -78,3 +78,12 @@
 #     x=2**i
 #   iloczyn=iloczyn*x
 # print(f"Iloczyn {n} pierwszych elementow ciagu to: {iloczyn}")
+# Zad.10
+# suma=0
+# ilo=1
+# n = int(input("Podaj liczbe: "))
+# for i in range(1,n+1):
+#   for j in range(1,i):
+#     ilo=ilo*j
+#     suma=suma+ilo
+# print(suma)
