@@ -66,4 +66,15 @@
 #     suma=suma+i
 #   elif i%2==1:
 #     suma=suma-i
-# print(f"Suma {n} elementow ciagu to: {suma}") 
+# print(f"Suma {n} elementow ciagu to: {suma}")
+# Zad.9
+# n=int(input("Podaj liczbe: "))
+# x=0
+# iloczyn=1
+# for i in range(n):
+#   if i%2==0:
+#     x=2**i*(-1)
+#   elif i%2==1:
+#     x=2**i
+#   iloczyn=iloczyn*x
+# print(f"Iloczyn {n} pierwszych elementow ciagu to: {iloczyn}")
