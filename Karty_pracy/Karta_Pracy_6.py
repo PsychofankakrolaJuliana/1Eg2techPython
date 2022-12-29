@@ -58,3 +58,12 @@
 #     suma=suma+i
 #     print(i)
 # print(f"Suma najwiekszych liczb 3-cyfrowych podzielnych przez 37 to: {suma}")
+# Zad.8
+# suma=0
+# n = int(input("Podaj ilosc elementow: "))
+# for i in range(2,n*3,3):
+#   if i%2==0:
+#     suma=suma+i
+#   elif i%2==1:
+#     suma=suma-i
+# print(f"Suma {n} elementow ciagu to: {suma}") 
