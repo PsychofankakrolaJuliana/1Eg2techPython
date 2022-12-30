@@ -87,3 +87,8 @@
 #     ilo=ilo*j
 #     suma=suma+ilo
 # print(suma)
+# Zad.11
+suma=0
+n = int(input("Podaj liczbe: "))
+for i in range(1,n+1):
+  
