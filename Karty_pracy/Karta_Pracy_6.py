@@ -88,11 +88,11 @@
 #     suma=suma+ilo
 # print(suma)
 # Zad.11
-suma=0
-T=[]
-K=[]
-n = int(input("Podaj liczbe: "))
-for i in range(1,n+1):
-  T.append(i)
-for j in range(1,n*2,2):
-  K.append(j)
+# suma=0
+# T=[]
+# K=[]
+# n = int(input("Podaj liczbe: "))
+# for i in range(1,n+1):
+#   T.append(i)
+# for j in range(1,n*2,2):
+#   K.append(j)
