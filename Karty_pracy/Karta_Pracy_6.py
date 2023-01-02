@@ -103,38 +103,43 @@
 #     suma=suma+ilo
 # print(suma)
 # Zad.11
-licznik = 0
-mianownik= 0
-n=int(input("Podaj n: "))
-l = -1
-iold=1
-lold=1
-a=0
-b=0
-c=0
-d=0
-e=0
-for i in range(1,n+1):
-  i=i*i
-  l=l+2
-  a=i
-  b=l
-  while a!=b:
-    c=a*b
-  while a!=b:
-    if a>b: 
-      a=a-b
-      c=c/a
-    elif b>a: 
-      b=b-a
-      c=c/b
-  a=c/i
-  b=c/l
-  d=c/iold
-  e=c/lold
-  i=i*a
-  l=l*b
-  iold=iold*d
-  lold=lold*e
-  iold=i
-  lold=l
+# licznik = 0
+# mianownik= 0
+# n=int(input("Podaj n: "))
+# l = -1
+# iold=1
+# lold=1
+# a=0
+# b=0
+# c=0
+# d=0
+# e=0
+# for i in range(1,n+1):
+#   i=i*i
+#   l=l+2
+#   a=i
+#   b=l
+#   while a!=b:
+#     c=a*b
+#   while a!=b:
+#     if a>b: 
+#       a=a-b
+#       c=c/a
+#     elif b>a: 
+#       b=b-a
+#       c=c/b
+#   a=c/i
+#   b=c/l
+#   d=c/iold
+#   e=c/lold
+#   i=i*a
+#   l=l*b
+#   iold=iold*d
+#   lold=lold*e
+#   i=i+iold
+#   l=l+lold
+#   licznik=licznik+l
+#   mianownik=mianownik+i
+#   iold=i
+#   lold=l
+# print(f"{licznik}/{mianownik}")
