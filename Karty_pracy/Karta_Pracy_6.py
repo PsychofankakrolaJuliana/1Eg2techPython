@@ -2,7 +2,22 @@
 # a = int(input("Podaj liczbe: "))
 # b = int(input("Podaj drugom liczbe: "))
 # c = int(input("Podaj trzeciom liczbe: "))
-# if()
+# x =c-b
+# y=b-a
+# d=c/b
+# e=b/a
+# if(x==y):
+#   print("Ciag jest arytmetyczny")
+# else:
+#   print("Ciąg nie jest arytmetyczny")
+# if(d==e):
+#   print("Ciag jest geometryczny")
+# else:
+#   print("Ciag nie jest geometryczny")
+# if(a<b<c):
+#   print("Ciag jest rosnacy")
+# elif(a>b>c):
+#   print("Ciag jest malejacy")
 # Zad.2
 # suma = 0
 # for i in range(100,1000):
