@@ -182,4 +182,7 @@ f=0
 m=0
 for i in range(n):
   m=2**n
-  
+  f=a+b
+  a=b
+  b=f
+print(f"{f}/{m}")
