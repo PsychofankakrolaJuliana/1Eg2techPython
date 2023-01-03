@@ -102,9 +102,9 @@
 #     ilo=ilo*j
 #     suma=suma+ilo
 # print(suma)
-# Zad.11
+# Zad.11 - procesor sie zapycha z niewiadomego powodu
 # licznik = 0
-# mianownik= 0
+# mianownik= 1
 # n=int(input("Podaj n: "))
 # l = -1
 # iold=1
