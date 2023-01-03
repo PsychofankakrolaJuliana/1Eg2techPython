@@ -162,13 +162,14 @@
 # x=0
 # l=0
 # Zad.15
-n = int(input("Podaj ile ulamkow dodajemy: "))
-licznik = 1
-minownik = 1
-l=2
-m=0
-for i in range(n):
-  m=m+2**i
-  l=l+1
-  licznik=licznik*l
-  mianownik=mianownik*m
+# n = int(input("Podaj ile ulamkow dodajemy: "))
+# licznik = 1
+# mianownik = 1
+# l=2
+# m=0
+# for i in range(n):
+#   m=m+2**i
+#   l=l+1
+#   licznik=licznik*l
+#   mianownik=mianownik*m
+# print(f"{licznik}/{mianownik}")
