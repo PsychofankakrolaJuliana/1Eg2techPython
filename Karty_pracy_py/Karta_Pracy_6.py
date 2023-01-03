@@ -143,3 +143,21 @@
 #   iold=i
 #   lold=l
 # print(f"{licznik}/{mianownik}")
+# Zad.12
+# licznik =0
+# mianownik=0
+# l=-1
+# n=int(input("Podaj ile ulamow dodajemy: "))
+# for i in range(1,n+1):
+#   l=l+2
+#   i=i**2
+#   licznik=licznik+l
+#   mianownik=mianownik+i
+# print(f"{licznik}/{mianownik}")
+# Zad.13
+n=int(input("Podaj n: "))
+suma=0
+licznik=0
+mianownik=1
+x=0
+l=0
