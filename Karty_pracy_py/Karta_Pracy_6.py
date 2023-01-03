@@ -174,15 +174,15 @@
 #   mianownik=mianownik*m
 # print(f"{licznik}/{mianownik}")
 # Zad.16
-ilo=0
-n=int(input("Podaj ile ulamkow mnozymy: "))
-a=0
-b=1
-f=0
-m=0
-for i in range(n):
-  m=2**n
-  f=a+b
-  a=b
-  b=f
-print(f"{f}/{m}")
+# ilo=0
+# n=int(input("Podaj ile ulamkow mnozymy: "))
+# a=0
+# b=1
+# f=0
+# m=0
+# for i in range(n):
+#   m=2**n
+#   f=a+b
+#   a=b
+#   b=f
+# print(f"{f}/{m}")
