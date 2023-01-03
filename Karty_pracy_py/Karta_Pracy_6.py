@@ -155,10 +155,11 @@
 #   mianownik=mianownik+i
 # print(f"{licznik}/{mianownik}")
 # Zad.13 i 14 bo są takie same
-n=int(input("Podaj n: "))
-suma=0
-licznik=0
-mianownik=1
-x=0
-l=0
+# n=int(input("Podaj n: "))
+# suma=0
+# licznik=0
+# mianownik=1
+# x=0
+# l=0
 # Zad.15
+n = int(input("Podaj ile ulamkow dodajemy: "))
