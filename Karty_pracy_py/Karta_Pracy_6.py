@@ -173,3 +173,9 @@
 #   licznik=licznik*l
 #   mianownik=mianownik*m
 # print(f"{licznik}/{mianownik}")
+# Zad.16
+ilo=0
+n=int(input("Podaj ile ulamkow mnozymy: "))
+a=0
+b=1
+
