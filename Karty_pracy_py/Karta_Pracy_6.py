@@ -178,4 +178,8 @@ ilo=0
 n=int(input("Podaj ile ulamkow mnozymy: "))
 a=0
 b=1
-
+f=0
+m=0
+for i in range(n):
+  m=2**n
+  
