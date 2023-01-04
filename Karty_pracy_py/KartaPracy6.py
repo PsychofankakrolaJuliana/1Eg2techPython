@@ -154,7 +154,7 @@
 #   licznik=licznik+l
 #   mianownik=mianownik+i
 # print(f"{licznik}/{mianownik}")
-# Zad.13 i 14 bo są takie same
+# Zad.13 i 14 bo są takie same (liczba do 3 plus dwa
 # n=int(input("Podaj n: "))
 # suma=0
 # licznik=0
