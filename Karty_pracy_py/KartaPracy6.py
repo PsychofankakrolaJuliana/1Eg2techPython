@@ -158,9 +158,9 @@
 # n=int(input("Podaj n: "))
 # suma=0
 # licznik=0
-# mianownik=1
-# x=0
-# l=0
+# for i in range(1,n+1):
+#   suma=suma+(2*i)/(i**3+2)
+# print(suma)
 # Zad.15
 # n = int(input("Podaj ile ulamkow dodajemy: "))
 # licznik = 1
