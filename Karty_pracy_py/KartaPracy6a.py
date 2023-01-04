@@ -34,7 +34,7 @@
 #   print("Podane liczby nie są względnie pierwsze")
 # Zad.5
 # m = int(input("Podaj liczbe: "))
-# for i in range(10,19):
+# for i in range(10,20):
 #   x=m
 #   y=i
 #   while y >0:
