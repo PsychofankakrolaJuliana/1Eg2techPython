@@ -9,3 +9,10 @@
 #   i=i+1
 #   if i%15==0:
 #     print(i, end=" ")
+# Zad.3
+# n=int(input("Podaj liczbe: "))
+# i=0
+# while i<n:
+#   i+=1
+#   if(n%i==0):
+#     print(i, end=" ")
