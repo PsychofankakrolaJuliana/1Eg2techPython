@@ -16,3 +16,10 @@
 #   i+=1
 #   if(n%i==0):
 #     print(i, end=" ")
+# Zad.4 (Nie działa -_-)
+# suma=0
+# i=9
+# while i>100:
+#   i=i+1
+#   suma=suma+i
+# print(suma)
