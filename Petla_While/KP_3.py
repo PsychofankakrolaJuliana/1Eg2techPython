@@ -23,6 +23,15 @@
 #   i=i+1
 #   suma=suma+i
 # print(suma)
+# Zad.5
+n=int(input("Podaj liczbe: "))
+suma=n*(n+1)//2
+i=0
+while i<n:
+  i=i+1
+  x=int(input("Podaj liczbe: "))
+  suma=suma-x
+print("Nie podales: ", suma)
 # Zad.6
 # a=0
 # b=1
