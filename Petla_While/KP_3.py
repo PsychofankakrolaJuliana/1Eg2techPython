@@ -24,11 +24,13 @@
 #   suma=suma+i
 # print(suma)
 # Zad.6
-a=0
-b=1
-temp=0
-i=1
-while i>0:
-  temp=a+b
-  a=b
-  b=temp
+# a=0
+# b=1
+# temp=0
+# i=1
+# while i<100:
+#   temp=a+b
+#   a=b
+#   b=temp
+#   print(temp, end=" ")
+#   i=i+1
