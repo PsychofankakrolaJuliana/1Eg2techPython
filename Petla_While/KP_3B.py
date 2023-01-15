@@ -25,3 +25,11 @@
 #   i=i+1
 
 # Zad.5
+# n=int(input("Podaj ile liczb podasz: "))
+# i=1
+# suma=0
+# while i<=n:
+#   x=int(input("Podaj liczbe: "))
+#   suma=suma+x
+#   i=i+1
+# print("Suma liczb jest rowna: ", suma)
