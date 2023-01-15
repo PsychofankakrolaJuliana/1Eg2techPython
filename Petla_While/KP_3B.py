@@ -18,6 +18,10 @@
 #   i=i+1
 
 # Zad.4
-i=100
-while i<=999:
-  
+# i=100
+# while i<=999:
+#   if (i%5==0 and i%6==0) or i%11==0:
+#     print(i, end=" ")
+#   i=i+1
+
+# Zad.5
