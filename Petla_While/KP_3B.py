@@ -8,3 +8,7 @@
 # while i<9:
 #   i+=2
 #   print(i**2)
+# Zad.3
+i=1000
+while i<9999:
+  if(i%379)
