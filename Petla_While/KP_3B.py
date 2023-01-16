@@ -33,3 +33,14 @@
 #   suma=suma+x
 #   i=i+1
 # print("Suma liczb jest rowna: ", suma)
+
+# Zad.6
+# k= int(input("Podaj liczbe: "))
+# i = 0
+# suma=0
+# while i < k:
+#   i=i+2
+#   suma=suma+i
+# print("Suma", k, "liczb jest rowna: ", suma)
+
+# Zad.7
