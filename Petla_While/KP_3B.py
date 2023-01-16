@@ -44,10 +44,15 @@
 # print("Suma", k, "liczb jest rowna: ", suma)
 
 # Zad.7
-m =int(input("Podaj liczbe: "))
-i = 11
-suma=0
-while i < m:
-  i = i + 2
-  suma=suma+i
-print("Suma", m, "liczb jest rowna: ", suma)
+# m =int(input("Podaj liczbe: "))
+# i = 11
+# suma=0
+# while i < m:
+#   i = i + 2
+#   suma=suma+i
+# print("Suma", m, "liczb jest rowna: ", suma)
+
+# Zad.9
+n=int(input("Podaj liczbe: ")))
+i=0
+while i<
