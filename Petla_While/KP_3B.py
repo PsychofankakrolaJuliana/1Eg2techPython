@@ -53,6 +53,21 @@
 # print("Suma", m, "liczb jest rowna: ", suma)
 
 # Zad.9
-n=int(input("Podaj liczbe: ")))
-i=0
-while i<
+# n=int(input("Podaj liczbe: "))
+# i=0
+# while i<n*100:
+#   if i%100==21:
+#     print(i)
+#   i=i+1
+
+# Zad.10
+# import math
+# i=1
+# while(i<=1000):
+#   if(i<100):
+#     if(i%10==math.sqrt(i)):
+#       print(i)
+#   elif(i<1000):
+#     if(i%100==math.sqrt(i)):
+#       print(i)
+#   i=i+1
