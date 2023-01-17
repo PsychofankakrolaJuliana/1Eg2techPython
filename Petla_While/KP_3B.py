@@ -52,6 +52,17 @@
 #   suma=suma+i
 # print("Suma", m, "liczb jest rowna: ", suma)
 
+# Zad.8
+wej=int(input("Podaj liczbe: "))
+l=float(input("Podaj liczbe: "))
+k=0.06
+wyj=0
+i=0
+while i<=l:
+  i+=1
+  wyj=wyj+wej*k
+print("Kwota koncowa to: ", wyj)
+
 # Zad.9
 # n=int(input("Podaj liczbe: "))
 # i=0
