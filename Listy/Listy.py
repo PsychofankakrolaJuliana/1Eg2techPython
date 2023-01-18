@@ -53,5 +53,10 @@ K=[4,7,5,7,3,3,2,8,7]
 # print(K)
 
 # Znajdz maxa w tablicy
-print(max(K))
+# print(max(K))
 
+# maks=K[0]
+# for i in K:
+#   if(i>maks):
+#     maks=i
+# print(maks)
