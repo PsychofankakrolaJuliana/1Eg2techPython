@@ -51,3 +51,7 @@ K=[4,7,5,7,3,3,2,8,7]
 # for i in range(K.count(7)):
 #   K.pop(K.index(7))
 # print(K)
+
+# Znajdz maxa w tablicy
+print(max(K))
+
