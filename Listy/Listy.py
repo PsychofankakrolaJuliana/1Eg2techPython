@@ -60,3 +60,9 @@ K=[4,7,5,7,3,3,2,8,7]
 #   if(i>maks):
 #     maks=i
 # print(maks)
+
+# maks=K[0]
+# for i in range(len(K)):
+#   if(K[i]>maks):
+#     maks=K[i]
+# print(maks)
