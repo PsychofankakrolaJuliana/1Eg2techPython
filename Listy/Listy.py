@@ -18,7 +18,7 @@
 #   print(L[i], end=" ")
 
 # # Funkcje w lisatch
-K=[4,7,5,7,3,3,2,8,7]
+# K=[4,7,5,7,3,3,2,8,7]
 # print(K)
 
 # K.append(3)
@@ -66,3 +66,7 @@ K=[4,7,5,7,3,3,2,8,7]
 #   if(K[i]>maks):
 #     maks=K[i]
 # print(maks)
+
+# # Zakresy
+# L=[3,7,2,1,5,4,2,4,8]
+# range(2,10,3) 
