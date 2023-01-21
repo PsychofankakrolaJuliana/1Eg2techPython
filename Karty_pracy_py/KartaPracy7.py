@@ -59,3 +59,14 @@ print("\n")
 #   if T[i]==x:
 #     ilo+=1
 # print(ilo)
+
+# Zad.7
+# ilo=0
+# mn=100
+# for i in range(len(T)):
+#   if(T[i]<mn):
+#     mn=T[i]
+# for k in range(len(T)):
+#   if(T[k]==mn):
+#     ilo+=1
+# print(ilo)
