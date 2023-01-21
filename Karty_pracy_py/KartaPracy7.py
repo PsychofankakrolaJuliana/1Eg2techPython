@@ -17,3 +17,10 @@ print("\n")
 # print(max(T))
 
 # Zad.2
+# mn=100
+# for i in range(len(T)):
+#   if(T[i]<mn):
+#     mn=T[i]
+# print(mn)
+
+# print(min(T)):
