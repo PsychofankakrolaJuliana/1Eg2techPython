@@ -42,4 +42,20 @@ print("\n")
 # c=a-b
 # print(c)
 
-# Zad.4
+# Zad.6
+# maks=0
+# ilo=0
+# for i in range(0,len(T)):
+#   if T[i]>maks:
+#     maks=T[i]
+# for k in range(len(T)):
+#   if T[k]==maks:
+#     ilo+=1
+# print(ilo)
+
+# ilo=0
+# x=max(T)
+# for i in range(len(T)):
+#   if T[i]==x:
+#     ilo+=1
+# print(ilo)
