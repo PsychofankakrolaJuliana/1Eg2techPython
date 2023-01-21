@@ -1,3 +1,4 @@
+# Karty_pracy_py//KartaPracy7.py
 # import random
 # for T in range(0, 40):
 #   random.randint(10, 100)

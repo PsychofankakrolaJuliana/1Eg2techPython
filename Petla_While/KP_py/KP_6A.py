@@ -1,3 +1,4 @@
+# Petla_While//KP_py//KP_6A.py
 # Zad.1
 # n=int(input("Podaj liczbe: "))
 # suma=0
