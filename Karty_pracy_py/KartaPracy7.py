@@ -10,8 +10,8 @@ print("\n")
 # Zad.1
 # maks=0
 # for i in range(0,len(T)):
-#   if i>maks:
-#     maks=i
+#   if T[i]>maks:
+#     maks=T[i]
 # print(maks)
 
 # print(max(T))
@@ -24,3 +24,22 @@ print("\n")
 # print(mn)
 
 # print(min(T)):
+
+# Zad.3
+# mn=100
+# maks=0
+# for i in range(len(T)):
+#   if T[i]>maks:
+#     maks=T[i]
+# for i in range(len(T)):
+#   if(T[i]<mn):
+#     mn=T[i]
+# x=maks-mn
+# print(x)
+
+# a=max(T)
+# b=min(T)
+# c=a-b
+# print(c)
+
+# Zad.4
