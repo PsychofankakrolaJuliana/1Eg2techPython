@@ -70,3 +70,10 @@ print("\n")
 #   if(T[k]==mn):
 #     ilo+=1
 # print(ilo)
+
+# ilo=0
+# x=min(T)
+# for i in range(len(T)):
+#   if T[i]==x:
+#     ilo+=1
+# print(ilo)
