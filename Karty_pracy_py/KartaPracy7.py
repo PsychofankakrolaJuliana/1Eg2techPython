@@ -85,3 +85,9 @@ print("\n")
 #   if T[i]==n:
 #     ilo+=1
 # print(ilo)
+
+# n=int(input("Podaj liczbe: "))
+# ilo= T.count(n)
+# print(ilo)
+
+# Zad.9
