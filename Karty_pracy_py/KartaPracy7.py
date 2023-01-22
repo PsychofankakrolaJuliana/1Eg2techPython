@@ -96,3 +96,5 @@ print("\n")
 #   suma+=T[i]
 # suma=suma/40
 # print(round(suma,1))
+
+# 
