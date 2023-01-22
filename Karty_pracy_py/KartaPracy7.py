@@ -102,3 +102,12 @@ print("\n")
 # for i in range(0,len(T),2):
 #   suma+=T[i]
 # print(suma)
+
+# Zad.11
+# suma=0
+# for i in range(1,len(T),2):
+#   suma+=T[i]
+# suma=suma//40
+# print(suma)
+
+# Zad.12
