@@ -111,3 +111,13 @@ print("\n")
 # print(suma)
 
 # Zad.12
+# x=0
+# ilo=0
+# for i in range(len(T)):
+#   x=i
+#   for k in range(len(T)):
+#     if T[k]==x:
+#       ilo+=1
+#   if ilo==1:
+#     print(T[i], end=" ")
+  
