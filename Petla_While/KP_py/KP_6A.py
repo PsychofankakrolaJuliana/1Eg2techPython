@@ -62,3 +62,7 @@
 #   if x==1 or y==1:
 #     print(i, end=" ")
 #   i=i+1
+
+# Zad.6
+a=int(input("Podaj licznik: "))
+b=int(input("Podaj licznik: "))
