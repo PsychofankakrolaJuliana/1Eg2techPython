@@ -38,7 +38,7 @@
 # b= int(input("Podaj liczbe: "))
 # x=a
 # y=b
-# while x<y:
+# while x!=y:
 #   if x>y:
 #     x=x-y
 #   else:
@@ -47,3 +47,18 @@
 #   print("Podane liczby sa wzglednie pierwsze.")
 # else:
 #   print("Podane liczby nie sa wzglednie pierwsze.")
+
+# Zad.5
+# m=int(input("Podaj liczbe: "))
+# i=10
+# while i<20:
+#   x=i
+#   y=m
+#   while x!=y:
+#     if x>y:
+#       x=x-y
+#     else:
+#       y=y-x
+#   if x==1 or y==1:
+#     print(i, end=" ")
+#   i=i+1
