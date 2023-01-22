@@ -78,3 +78,10 @@ print("\n")
 #     ilo+=1
 # print(ilo)
 
+# Zad.8
+# n = int(input("Podaj liczbe: "))
+# ilo=0
+# for i in range(len(T)):
+#   if T[i]==n:
+#     ilo+=1
+# print(ilo)
