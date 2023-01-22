@@ -64,5 +64,15 @@
 #   i=i+1
 
 # Zad.6
-a=int(input("Podaj licznik: "))
-b=int(input("Podaj licznik: "))
+# a=int(input("Podaj licznik: "))
+# b=int(input("Podaj licznik: "))
+# x=a
+# y=b
+# while x!=y:
+#   if x>y:
+#     x=x-y
+#   else:
+#     y=y-x
+# c=a//x
+# d=b//y
+# print(f"{a}/{b}={c}/{d}")
