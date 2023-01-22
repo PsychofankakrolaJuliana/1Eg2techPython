@@ -91,3 +91,8 @@ print("\n")
 # print(ilo)
 
 # Zad.9
+# suma=0
+# for i in range(len(T)):
+#   suma+=T[i]
+# suma=suma/40
+# print(round(suma,1))
