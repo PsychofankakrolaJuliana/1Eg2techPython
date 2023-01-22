@@ -1,7 +1,7 @@
 # Karty_pracy_py//KartaPracy7.py
 import random
 T = []
-for i in range(40):
+for h in range(40):
   random_number = random.randint(10,99)
   T.append(random_number)
 print(T, end=" ")
@@ -120,4 +120,12 @@ print("\n")
 #       ilo+=1
 #   if ilo==1:
 #     print(T[i], end=" ")
-  
+
+# Zad.13
+# f=1
+# for i in range(10,100):
+#   for j in range(len(T)):
+#     if i==T[j]:
+#       f=0
+#   if f==1:
+#     print(i)
