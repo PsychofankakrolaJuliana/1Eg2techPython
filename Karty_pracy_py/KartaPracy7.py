@@ -140,3 +140,7 @@ print("\n")
 
 # Kali.org / Kali linux documantation / usb / making w windows / rufus / 
 # własciwosci dysku / gpt / pobieranie / to u góry
+
+# mkdir repos - tworzy repozytorium
+# cd repos - wchodzi do repozytorium
+# git clone https://github.com/kali-org/kali.git   - klonowani erepozytorium
