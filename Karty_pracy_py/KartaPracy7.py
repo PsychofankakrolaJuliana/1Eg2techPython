@@ -130,10 +130,12 @@ print("\n")
 #   if f==1:
 #     print(i)
 
-# Zad.14 -> nie działa
+# Zad.14         
 # ilo=0
 # for i in range(len(T)):
 #   for j in range(len(T)):
 #     if i==j:
 #       ilo=ilo+1
 # print(ilo)
+
+# Kali.org
