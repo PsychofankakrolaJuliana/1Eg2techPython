@@ -138,4 +138,4 @@ print("\n")
 #       ilo=ilo+1
 # print(ilo)
 
-# Kali.org / Kali linux documantation / usb / making w windows
+# Kali.org / Kali linux documantation / usb / making w windows / rufus / gpt
