@@ -42,6 +42,14 @@ print("\n")
 # c=a-b
 # print(c)
 
+# Zad.4
+# T=sorted(T)
+# print(T[38])
+
+# Zad.5
+# L=sorted(T)
+# print(L[1])
+
 # Zad.6
 # maks=0
 # ilo=0
@@ -138,3 +146,13 @@ print("\n")
 #       ilo=ilo+1
 # print(ilo)
 
+# Zad.15
+# a=0
+# b=0
+# for i in range(len(T)-1):
+#     for j in range(1,len(T)):
+#       if j>i:
+#         a+=1
+#         if a>b:
+#           b=a
+# print(b)            
