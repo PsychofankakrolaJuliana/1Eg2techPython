@@ -18,4 +18,5 @@ for i in range(2,F):
   if gcd(i,F)==1:
     e=i
     break
-print(i)
+print(f"Klucz publiczny: {e} i {n}")
+# 4.Wygenerowanie klucza prywatnego d: (d*e)%n=1 (odwrotność modulo)
