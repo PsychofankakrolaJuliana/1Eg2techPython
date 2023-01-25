@@ -22,9 +22,21 @@ print(f"Klucz publiczny: {e} i {n}")
 # 4.Wygenerowanie klucza prywatnego d: (d*e)%n=1 (odwrotność modulo)
 d=0
 for j in range(2,n):
-  if (j*e)%n==1:
+  if (j*e)%F==1:
     d=j
     break
 print(d," ",n)
 
-# PRZYKŁAD DZIAŁANIA 
+# PRZYKŁAD DZIAŁANIA KODOWANIA ZNAKU X:
+# c=(x**e)%n (szyfr)
+# t=(c**d)%n (tekst jawny)
+msg=input("Napisz cos: ")
+szyfr=""
+for i in msg:
+  szyfr+=chr((ord(i)**e)%n)
+print(szyfr)
+
+jawny=""
+for j in szyfr:
+  jawny+=chr((ord(j)**d)%n)
+print(jawny)
