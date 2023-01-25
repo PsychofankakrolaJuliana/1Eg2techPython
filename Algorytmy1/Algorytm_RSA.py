@@ -20,3 +20,11 @@ for i in range(2,F):
     break
 print(f"Klucz publiczny: {e} i {n}")
 # 4.Wygenerowanie klucza prywatnego d: (d*e)%n=1 (odwrotność modulo)
+d=0
+for j in range(2,n):
+  if (j*e)%n==1:
+    d=j
+    break
+print(d," ",n)
+
+# PRZYKŁAD DZIAŁANIA 
