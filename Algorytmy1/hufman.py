@@ -11,5 +11,8 @@ for i in range(len(W)-1):
       H=H+str(ilo)
     H=H+W[i]
     ilo=1
+if ilo>1:
+  H=H+str(ilo)
+H=H+W[len(W)-1]
 print(W)
 print(H)
