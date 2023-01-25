@@ -1,1 +1,3 @@
 # Algorytmy1//hufman.py
+W="ABCCCDDDDEFGGGHHIJJ"
+H="AB2C5DEF3G2HI2J"
