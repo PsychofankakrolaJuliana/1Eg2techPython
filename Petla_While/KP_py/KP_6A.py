@@ -81,3 +81,4 @@
 from math import gcd
 l=int(input("Podaj licznik: "))
 m=int(input("Podaj mianownik: "))
+d=gcd(l,m)
