@@ -76,3 +76,5 @@
 # c=a//x
 # d=b//y
 # print(f"{a}/{b}={c}/{d}")
+
+# Zad.7
