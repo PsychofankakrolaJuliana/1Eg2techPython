@@ -78,3 +78,6 @@
 # print(f"{a}/{b}={c}/{d}")
 
 # Zad.7
+from math import gcd
+l=int(input("Podaj licznik: "))
+m=int(input("Podaj mianownik: "))
