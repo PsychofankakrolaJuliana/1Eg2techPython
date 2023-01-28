@@ -78,12 +78,12 @@
 # print(f"{a}/{b}={c}/{d}")
 
 # Zad.7
-from math import gcd
-l=int(input("Podaj licznik: "))
-m=int(input("Podaj mianownik: "))
-x=l//m
-l=l%m
-d=gcd(l,m)
-l=l//d
-m=m//d
-print(f"{l}/{m}")
+# from math import gcd
+# l=int(input("Podaj licznik: "))
+# m=int(input("Podaj mianownik: "))
+# x=l//m
+# l=l%m
+# d=gcd(l,m)
+# l=l//d
+# m=m//d
+# print(f"{x} {l}/{m}")
