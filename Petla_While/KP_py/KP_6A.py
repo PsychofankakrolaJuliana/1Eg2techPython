@@ -89,7 +89,19 @@
 # print(f"{x} {l}/{m}")
 
 # Zad.8
-i=0
+i, x, y, suma1, suma2=0
+j=1
+print("Liczby zaprzyjaznione do 10000: ")
 while i<10000:
-  
+  while j<10000:
+    while x<i:
+      x=x+1
+      if i%x==0:
+        suma1+=x
+    while y<j:
+      if j%y==0:
+        suma2+=y
+    if suma1==suma2:
+      print()
+    j=j+1
   i=i+1
