@@ -87,3 +87,9 @@
 # l=l//d
 # m=m//d
 # print(f"{x} {l}/{m}")
+
+# Zad.8
+i=0
+while i<10000:
+  
+  i=i+1
