@@ -5,6 +5,7 @@
 #   suma=suma+x%10
 #   x=x//10
 # print(suma)
+
 # # Zad.2
 # n = int(input("Podaj liczbe: "))
 # for i in range(2,n):
@@ -12,6 +13,7 @@
 #     print("Podana liczba nie jest pierwsza")
 #   else:
 #     print("Podana liczba nie jest pierwsza")
+
 # Zad.3
 # n = int(input("Podaj liczbe: "))
 # suma=0
@@ -22,6 +24,7 @@
 #   print("Liczba jest doskonała")
 # else:
 #   print("Nie jest doskonała ta liczba")
+
 # Zad.4
 # a = int(input("Podaj liczbę: "))
 # b = int(input("Podaj drugą liczbe: "))
@@ -32,6 +35,7 @@
 #   print("Podane liczby są względnie pierwsze")
 # else:
 #   print("Podane liczby nie są względnie pierwsze")
+
 # Zad.5
 # m = int(input("Podaj liczbe: "))
 # for i in range(10,20):
@@ -42,6 +46,7 @@
 #   nwd = x
 #   if x==1:
 #     print(i, end=" ")
+
 # Zad.6
 # a = int(input("Podaj liczbę: "))
 # b = int(input("Podaj drugą liczbe: "))
@@ -53,14 +58,18 @@
 # c=a//x
 # d=b//x
 # print(f"{a}/{b}={c}/{d}")
+
 # Zad.7
-# a = int(input("Podaj licznik: "))
-# b = int(input("Podaj mianownik: "))
-# reszta = 0
-# if a/b!=0:
-#   c=a/b
-#   round(c,-1)
-# print(f"({a}/{b}={c},{c}/{10})")
+# from math import gcd
+# l=int(input("Podaj licznik: "))
+# m=int(input("Podaj mianownik: "))
+# x=l//m
+# l=l%m
+# d=gcd(l,m)
+# l=l//d
+# m=m//d
+# print(f"{x} {l}/{m}")
+
 # Zad.8
 # for i in range(2,10000):
 #   suma=0
@@ -73,6 +82,7 @@
 #       suma2+=k
 #   if suma1 == suma2:
 #     print(f"({suma 1},{suma2})")
+
 # Zad.9
 # def czy_pierwsza(n):
 #   for i in range(2,n):
@@ -85,6 +95,7 @@
 #       if czy_pierwsza(j) and czy_pierwsza(i//j):
 #         print(i, end=" ")
 #         break 
+
 # Zad.10
 # n = int(input("Podaj liczbę: "))
 # for i in range(2,n):
