@@ -10,6 +10,5 @@
 # b = int(input("Podaj b: "))
 # c = a*b
 # while b>0:
-#   a=b
-#   b=a%b
+#   a, b=b, a%b
 # print(c//a)
