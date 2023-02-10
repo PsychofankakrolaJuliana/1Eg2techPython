@@ -79,7 +79,7 @@
 # print(suma,"/",sum)
 
 # jajco
-# napis=input("gowno: ")
+# napis=input("jajcoL ")
 # szyfr=""
 # for i in range(len(napis)):
 #   szyfr=szyfr+chr(ord(napis[i])+3)
