@@ -55,3 +55,11 @@ for j in range(2,n):
   d=j
   break
 msg=input("Napisz coś: ")
+szyfr=""
+for i in msg:
+  szyfr+=chr((ord(i)**e)%n)
+print(szyfr)
+jawny=""
+for j in szyfr:
+  jawny+=chr((ord(j)**d)%n)
+print(jawny)
