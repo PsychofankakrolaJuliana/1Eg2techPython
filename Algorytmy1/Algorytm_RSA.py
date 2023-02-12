@@ -41,25 +41,25 @@
 #   jawny+=chr((ord(j)**d)%n)
 # print(jawny)
 
-p=11
-q=13
-F=(p-1)*(q-1)
-n=p*q
-from math import gcd
-for i in range(2,F):
-  if gcd(i,F)==1:
-    e=i
-    break
-d=0
-for j in range(2,n):
-  d=j
-  break
-msg=input("Napisz coś: ")
-szyfr=""
-for i in msg:
-  szyfr+=chr((ord(i)**e)%n)
-print(szyfr)
-jawny=""
-for j in szyfr:
-  jawny+=chr((ord(j)**d)%n)
-print(jawny)
+# p=11
+# q=13
+# F=(p-1)*(q-1)
+# n=p*q
+# from math import gcd
+# for i in range(2,F):
+#   if gcd(i,F)==1:
+#     e=i
+#     break
+# d=0
+# for j in range(2,n):
+#   d=j
+#   break
+# msg=input("Napisz coś: ")
+# szyfr=""
+# for i in msg:
+#   szyfr+=chr((ord(i)**e)%n)
+# print(szyfr)
+# jawny=""
+# for j in szyfr:
+#   jawny+=chr((ord(j)**d)%n)
+# print(jawny)
