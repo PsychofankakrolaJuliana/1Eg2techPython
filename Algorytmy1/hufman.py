@@ -1,6 +1,6 @@
 # Algorytmy1//hufman.py
 # W="AABCCCDDDDEFGGGHHIJJ"
-# E="2AB3C4DEF3G2HI2J"
+# Przyklad="2AB3C4DEF3G2HI2J"
 # H=""
 # ilo=1
 # for i in range(len(W)-1):

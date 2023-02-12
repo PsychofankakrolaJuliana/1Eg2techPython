@@ -1,8 +1,8 @@
 # Algorytmy1//Algorytm_RSA.py
 
 # # Funkcja na NWD
-# # from math import gcd
-# # print(gcd(12,16))
+# from math import gcd
+# print(gcd(12,16))
 
 # # 1.Wybór 2 dużych liczb pierwszych
 # p=11
