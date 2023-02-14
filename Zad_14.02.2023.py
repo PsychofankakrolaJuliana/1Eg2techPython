@@ -18,14 +18,14 @@ while x != y:
   else:
     y = y - x
     n = n / y
-z=m3
-a=0
-while n!=z:
-  a=n*z
-while n!=z:
-  if n>z:
-    n=n-z
-    a=a/n
+z = m3
+a = 0
+while n != z:
+  a = n * z
+while n != z:
+  if n > z:
+    n = n - z
+    a = a / n
   else:
-    z=z-n
-    z=z/a
+    z = z - n
+    z = z / a
