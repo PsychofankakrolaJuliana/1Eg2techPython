@@ -25,11 +25,16 @@
 # m3 = m3 * c
 # print(f"{l1}/{m1} ; {l2}/{m2} ; {l3}/{m3}")
 
-# Zad.2
-suma1=0
-suma2=0
-for i in range(1,5000):
-  for j in range(1,i):
-    if i%j==0:
-      suma1+=j
-  
+# Zad.2 -> działa ale mój komputer tego k nie rozumie :)))))))) KOCHAM ŻYCIE
+# suma1=0
+# suma2=0
+# for a in range(1,5000):
+#   for x in range(1,a-1):
+#     if a%x==0:
+#       suma1+=x
+#   for b in range(1,5000):
+#     for y in range(1,b-1):
+#       if b%y==0:
+#         suma2+=y
+#     if suma1==suma2:
+#       print(f"{a} i {b}")
