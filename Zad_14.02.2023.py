@@ -14,10 +14,10 @@ while x != y:
 while x != y:
   if x > y:
     x = x - y
-    n = n / x
+    n = n // x
   else:
     y = y - x
-    n = n / y
+    n = n // y
 z = m3
 m = 0
 while n != z:
@@ -25,13 +25,13 @@ while n != z:
 while n != z:
   if n > z:
     n = n - z
-    m = m / n
+    m = m // n
   else:
     z = z - n
-    z = z / m
-a = m / m1
-b = m / m2
-c = m / m3
+    z = z // m
+a = m // m1
+b = m // m2
+c = m // m3
 l1 = l1 * a
 m1 = m1 * a
 l2 = l2 * b
