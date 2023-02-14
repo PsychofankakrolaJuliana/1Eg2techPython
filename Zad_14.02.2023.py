@@ -19,13 +19,23 @@ while x != y:
     y = y - x
     n = n / y
 z = m3
-a = 0
+m = 0
 while n != z:
-  a = n * z
+  m = n * z
 while n != z:
   if n > z:
     n = n - z
-    a = a / n
+    m = m / n
   else:
     z = z - n
-    z = z / a
+    z = z / m
+a = m / m1
+b = m / m2
+c = m / m3
+l1 = l1 * a
+m1 = m1 * a
+l2 = l2 * b
+m2 = m2 * b
+l3 = l3 * c
+m3 = m3 * c
+print(f"{l1}/{m1} ; {l2}/{m2} ; {l3}/{m3}")
