@@ -1,4 +1,5 @@
 # Zad_14.0.2023.py
+
 # Zad.1 -> GÓWNO WALONE NIC NIE DZIAŁA
 # l1 = int(input("Podaj licznik: "))
 # m1 = int(input("Podaj mianownik: "))
@@ -40,3 +41,14 @@
 #       print(f"{a} i {b}")
 
 # Zad.3
+# ilo=0
+# f=1
+# for i in range(2,501):
+#   for j in range(2,i):
+#     if i%j==0:
+#       ilo+=1
+#       for a in range(2,j):
+#         if j%a==0:
+#           f=0
+#   if ilo==6 and f==1:
+#     print(i, end=" ")
