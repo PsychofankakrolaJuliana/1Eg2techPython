@@ -24,3 +24,12 @@
 # l3 = l3 * c
 # m3 = m3 * c
 # print(f"{l1}/{m1} ; {l2}/{m2} ; {l3}/{m3}")
+
+# Zad.2
+suma1=0
+suma2=0
+for i in range(1,5000):
+  for j in range(1,i):
+    if i%j==0:
+      suma1+=j
+  
