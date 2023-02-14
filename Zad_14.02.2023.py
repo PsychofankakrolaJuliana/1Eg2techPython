@@ -38,3 +38,5 @@
 #         suma2+=y
 #     if suma1==suma2:
 #       print(f"{a} i {b}")
+
+# Zad.3
