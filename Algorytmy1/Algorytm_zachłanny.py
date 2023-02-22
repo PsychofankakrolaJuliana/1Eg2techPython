@@ -5,9 +5,17 @@
 kw=int(input("Podaj kwote: "))
 ilo=0
 x=0
-T=[1,2,5,10,20,50,100,200,500]
+T=[500,200,300,100,50,20,10,5,2,1]
 while kw>0:
-  for i in T:
-    if T[i]>kw:
+  for i in range(0,len(T),-1):
+    if T[i]<kw:
       x=kw//T[i]
       print(f"{x}*{T[i]} ")
+
+# kw=int(input("Podaj kwote: "))
+# ilo=0
+# T=[50,20,10,5,2,1]
+# for i in T:
+#   ilo=kw//i
+#   kw=kw-ilo*i
+#   print(f"{i}, {ilo}")
