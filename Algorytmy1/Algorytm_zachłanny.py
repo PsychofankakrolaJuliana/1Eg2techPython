@@ -16,14 +16,14 @@
 
 # kw=int(input("Podaj kwote: "))
 # ilo=0
-# T=[50,20,10,5,2,1]
+# T=[500,200,100,50,20,10,5,2,1]]
 # for i in T:
 #   ilo=kw//i
 #   kw=kw-ilo*i
 #   print(f"{i}, {ilo}")
 
 # kw=int(input("Podaj kwote: "))
-# T=[50,20,10,5,2,1]
+# T=[500,200,100,50,20,10,5,2,1]
 # ilo=0
 # W=[]
 # for i in T:
