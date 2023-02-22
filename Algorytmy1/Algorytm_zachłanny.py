@@ -10,3 +10,4 @@ while kw>0:
   for i in T:
     if T[i]>kw:
       x=kw//T[i]
+      print(f"{x}*{T[i]} ")
