@@ -22,3 +22,15 @@
 #   kw=kw-ilo*i
 #   print(f"{i}, {ilo}")
 
+# kw=int(input("Podaj kwote: "))
+# T=[50,20,10,5,2,1]
+# ilo=0
+# W=[]
+# for i in T:
+#   ilo=kw//i
+#   if ilo>0:
+#     kw=kw-ilo*i
+#     for j in range(ilo):
+#       W.append(i)
+# # opcjonalnie zamiast appenda w forze: W=W+ilo*T[i]
+# print(W)
