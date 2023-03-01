@@ -28,15 +28,15 @@
 
 # Zad.1
 #  sprawdx czy pisane slowo jest palindromem
-s=input("Napisz napis: ")
-L=list(s)
-X=L
-X.reverse()
-if X==L:
-  print("Tak")
-  a="".join(L)
-  print(a)
-else:
-  print("Nie")
-  print(L)
-  print(X)
+# s=input("Napisz napis: ")
+# L=list(s)
+# X=L.copy()
+# X.reverse()
+# if X==L:
+#   print("Tak")
+#   a="".join(L)
+#   print(a)
+# else:
+#   print("Nie")
+#   print(L)
+#   print(X)
