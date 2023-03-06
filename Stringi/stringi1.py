@@ -41,8 +41,14 @@
 #   print(L)
 #   print(X)
 
-s=input("Napisz cos: ")
-for i in range(len(s)//2):
-  if s[i]!=s[len(s)-1-i]:
-    exit("NIE")
-exit("TA")
+# s=input("Napisz cos: ")
+# for i in range(len(s)//2):
+#   if s[i]!=s[len(s)-1-i]:
+#     exit("NIE")
+# exit("TA")
+
+L=[i for i in range(1,10)]
+print(L)
+print(L[:4])
+print(L[6:9:2])
+# L=[start:stop:step]
