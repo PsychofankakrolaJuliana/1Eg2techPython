@@ -40,3 +40,9 @@
 #   print("Nie")
 #   print(L)
 #   print(X)
+
+s=input("Napisz cos: ")
+for i in range(len(s)//2):
+  if s[i]!=s[len(s)-1-i]:
+    exit("NIE")
+exit("TA")
