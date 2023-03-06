@@ -47,8 +47,41 @@
 #     exit("NIE")
 # exit("TA")
 
-L=[i for i in range(1,10)]
-print(L)
-print(L[:4])
-print(L[6:9:2])
+# L=[i for i in range(1,10)]
+# print(L)
+# print(L[:4])
+# print(L[6:9:2])
 # L=[start:stop:step]
+
+# Anagramy przez sortowanie
+# a=input("Napisz: ")
+# b=input("Napisz: ")
+# X=list(a)
+# Y=list(b)
+# X.sort()
+# Y.sort()
+# a="".join(X)
+# b="".join(Y)
+# print(a," ",b)
+# if a==b:
+#   print("TA")
+# else:
+#   print("NIE")
+
+# Anagram przez tablice
+a=input("Napisz: ")
+b=input("Napisz: ")
+X, Y=[0]*150,[0]*150
+for i in range(len(a)):
+  X[ord(a[i])]+=1
+for i in range(len(b)):
+  Y[ord(a[i])]+=1
+if X==Y:
+  print("TA")
+else:
+  print("NIE")
+
+# Obliczanie wartości wyrażenia w ONP
+3521+*+=
+# jeśli mamy liczbe to na stos
+# jeśli mamy działanie 
