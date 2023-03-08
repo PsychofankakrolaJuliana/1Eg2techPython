@@ -84,6 +84,7 @@
 # Obliczanie wartości wyrażenia w ONP
 # 3521+*+=
 # jeśli mamy liczbe to na stos
-# jeśli mamy działanie 
+# jeśli mamy działanie powoduje że wynik z 2 ostatnich stosów
+# wynik na stos
 # Fifo -> first in first out
 # Lifo -> last in last out (struktura stosowa)
