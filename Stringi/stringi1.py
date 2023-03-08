@@ -69,19 +69,19 @@
 #   print("NIE")
 
 # Anagram przez tablice
-a=input("Napisz: ")
-b=input("Napisz: ")
-X, Y=[0]*150,[0]*150
-for i in range(len(a)):
-  X[ord(a[i])]+=1
-for i in range(len(b)):
-  Y[ord(a[i])]+=1
-if X==Y:
-  print("TA")
-else:
-  print("NIE")
+# a=input("Napisz: ")
+# b=input("Napisz: ")
+# X, Y=[0]*150,[0]*150
+# for i in range(len(a)):
+#   X[ord(a[i])]+=1
+# for i in range(len(b)):
+#   Y[ord(a[i])]+=1
+# if X==Y:
+#   print("TA")
+# else:
+#   print("NIE")
 
 # Obliczanie wartości wyrażenia w ONP
-3521+*+=
+# 3521+*+=
 # jeśli mamy liczbe to na stos
 # jeśli mamy działanie 
