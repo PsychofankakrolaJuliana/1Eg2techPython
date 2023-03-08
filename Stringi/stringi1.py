@@ -85,3 +85,5 @@
 # 3521+*+=
 # jeśli mamy liczbe to na stos
 # jeśli mamy działanie 
+# Fifo -> first in first out
+# Lifo -> last in last out (struktura stosowa)
