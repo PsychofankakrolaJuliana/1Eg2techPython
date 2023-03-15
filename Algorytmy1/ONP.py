@@ -9,6 +9,5 @@ for i in range(len(T)):
   else:
     L.append
 L.reverse
-for a in range(len(L),1,-1):
-  for b in range(len(L)-1,0,-1):
-    
+while S==0:
+  
