@@ -1,3 +1,5 @@
+# Algorytmy1/ONP.py
+
 # n=input("Wpisz cos: ")
 # S=[]
 # T=list(n)
@@ -11,19 +13,20 @@
 # L.reverse
 # while S==0:
 
-s=input("Wpisz cos: ")
-stos=[]
-for elem in s:
-  if elem.isdigit():
-    stos.append(int(elem))
-  else:
-    a=stos.pop()
-    b=stos.pop()
-    if elem=="+":
-      stos.append(a+b)
-    elif elem=="*":
-      stos.append(a*b)
-    elif elem=="-":
-      stos.append(a-b)
-    elif elem=="/":
-      stos.append(a/b)
+# s=input("Wpisz cos: ")
+# stos=[]
+# for elem in s:
+#   if elem.isdigit():
+#     stos.append(int(elem))
+#   else:
+#     b=stos.pop()
+#     a=stos.pop()
+#     if elem=="+":
+#       stos.append(a+b)
+#     elif elem=="*":
+#       stos.append(a*b)
+#     elif elem=="-":
+#       stos.append(a-b)
+#     elif elem=="/":
+#       stos.append(a//b)
+# print(stos)
