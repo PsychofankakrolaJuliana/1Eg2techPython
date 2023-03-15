@@ -1,9 +1,14 @@
 n=input("Wpisz cos: ")
 S=[]
-T=[]
-for i in range(len(n)):
-  if(i=="+" or i=="-" or i=="*" or i=="/"):
-    S+=i
+T=list(n)
+L=[]
+wynik=0
+for i in range(len(T)):
+  if(T[i]=="+" or T[i]=="-" or T[i]=="*" or T[i]=="/"):
+    S.append
   else:
-    T+=i
-T.reverse
+    L.append
+L.reverse
+for a in range(len(L),1,-1):
+  for b in range(len(L)-1,0,-1):
+    
