@@ -1,5 +1,6 @@
 # Algorytmy1/ONP.py
 
+# ONP
 # n=input("Wpisz cos: ")
 # S=[]
 # T=list(n)
@@ -29,4 +30,4 @@
 #       stos.append(a-b)
 #     elif elem=="/":
 #       stos.append(a//b)
-# print(stos)
+#   print(stos)
