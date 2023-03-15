@@ -10,4 +10,3 @@ for i in range(len(T)):
     L.append
 L.reverse
 while S==0:
-  
