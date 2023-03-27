@@ -12,3 +12,10 @@
 # n=list(napis)
 # for i in range(1,len(n)-1):
 #   print(n[i])
+
+# Zad.3
+napis=input("Napisz napis: ")
+n=list(napis)
+n=n.reverse()
+for i in range(0,4):
+  
