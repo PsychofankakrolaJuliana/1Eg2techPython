@@ -14,8 +14,8 @@
 #   print(n[i])
 
 # Zad.3
-napis=input("Napisz napis: ")
-n=list(napis)
-n=n.reverse()
-for i in range(0,4):
-  
+# napis=input("Napisz napis: ")
+# n=list(napis)
+# x=n.reverse()
+# for i in range(0,4):
+#   print(x[i])
