@@ -27,3 +27,18 @@
 # for i in range(len(T)):
 #   suma=suma+ord(T[i])
 # print(suma)
+
+# Zad.5
+# ilo=0
+# ilo2=0
+# napis=input("Napisz napis: ")
+# T=list(napis)
+# x=""
+# for i in range(len(T)):
+#   for j in range(len(T)):
+#     if T[i]==T[j]:
+#       ilo+=1
+#     if ilo>ilo2:
+#       ilo2=ilo
+#       x=T[i]
+# print(x)
