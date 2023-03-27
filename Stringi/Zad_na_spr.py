@@ -19,3 +19,11 @@
 # x=n.reverse()
 # for i in range(0,4):
 #   print(x[i])
+
+# Zad.4
+# napis=input("Napisz napis: ")
+# suma=0
+# T=list(napis)
+# for i in range(len(T)):
+#   suma=suma+ord(T[i])
+# print(suma)
