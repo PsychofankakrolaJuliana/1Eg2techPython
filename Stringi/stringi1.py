@@ -101,8 +101,8 @@
 # + i -> 1
 # * i / -> 2
 # ^ -> 3
-# Zasady: 
-# -jak ma niższy priorytet to schodzą ze stosu wszystkie działania o 
+# Zasady:
+# -jak ma niższy priorytet to schodzą ze stosu wszystkie działania o
 # priorytecie wyższym lub równym
 # -nawias zawsze na sotos
 # -działania zawsze na wyjście
