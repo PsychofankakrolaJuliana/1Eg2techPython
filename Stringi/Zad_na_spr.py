@@ -29,6 +29,15 @@
 # print(suma)
 
 # Zad.5
+# napis=input("Napisz napis: ")
+# T=list(napis)
+# ilo=0
+# for i in range(len(T)):
+#   if T[i]=="a":
+#     ilo+=1
+# print(ilo)
+
+# Zad.6
 # ilo=0
 # ilo2=0
 # napis=input("Napisz napis: ")
@@ -42,3 +51,5 @@
 #       ilo2=ilo
 #       x=T[i]
 # print(x)
+
+# Zad.7
