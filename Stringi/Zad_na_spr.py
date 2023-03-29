@@ -53,7 +53,20 @@
 # print(x)
 
 # Zad.7
+n=input("Napisz napis: ")
+T=list(n)
+T.sort()
+for i in range()
 
 # Zad.8
-n=input("Napisz napis: ")
-n=list(n)
+# n=input("Napisz napis: ")
+# T=list(n)
+# ilo=0
+# for i in range(len(n)-1):
+#   j=i+1
+#   if (T[i]=="l" and T[j]=="a") or (T[i]=="L" and T[j]=="A") or (T[i]=="L" and T[j]=="a") or (T[i]=="l" and T[j]=="A"):
+#       ilo=ilo+1
+# if ilo >=3:
+#   print("Tak, ", ilo)
+# else:
+#   print("Nie")
