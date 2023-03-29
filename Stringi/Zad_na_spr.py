@@ -110,13 +110,17 @@
 #   x=x+1
 
 # Zad.
-n=input("Napisz napis: ")
-T=list(n)
-x=0
-L=[]
-suma=0
-for i in range(len(T)):
-  L.append(ord(T[i]))
-  x+=1
-for j in range(len(L)):
-  
+# n = input("Napisz napis: ")
+# T = list(n)
+# x = 0
+# L = []
+# suma = 0
+# for i in range(len(T)):
+#   L.append(ord(T[i]))
+#   x += 1
+# for j in range(len(L)):
+#   suma = suma + L[i]
+# suma = suma / x
+# suma = suma - (suma % 10)
+# suma = chr(suma)
+# print(suma)
