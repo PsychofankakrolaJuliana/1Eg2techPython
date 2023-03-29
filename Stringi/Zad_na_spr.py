@@ -53,3 +53,7 @@
 # print(x)
 
 # Zad.7
+
+# Zad.8
+n=input("Napisz napis: ")
+n=list(n)
