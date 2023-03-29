@@ -53,12 +53,27 @@
 # print(x)
 
 # Zad.7
-n=input("Napisz napis: ")
-T=list(n)
-T.sort()
-for i in range(len(T)):
-  for j in range()
+# n=input("Napisz napis: ")
+# T=list(n)
+# T.sort()
+# L = list()
+# ilo=0
+# ilo2=0
+# for k in range(len(T)):
+#   for i in range(len(T)):
+#     for j in range(len(T)):
+#       if T[i]==T[j]:
+#         ilo+=1
+#   if(ilo>=ilo2):
+#     L.append(T[i])
+# print(L)
 
+g=input("Napisz: ")
+K= [0]*100
+for x in g:
+  K[ord(x)]+=1
+domi=max(K)
+  
 # Zad.8
 # n=input("Napisz napis: ")
 # T=list(n)
@@ -66,7 +81,7 @@ for i in range(len(T)):
 # for i in range(len(n)-1):
 #   j=i+1
 #   if (T[i]=="l" and T[j]=="a") or (T[i]=="L" and T[j]=="A") or (T[i]=="L" and T[j]=="a") or (T[i]=="l" and T[j]=="A"):
-#       ilo=ilo+1
+#       ilo+=1
 # if ilo >=3:
 #   print("Tak, ", ilo)
 # else:
