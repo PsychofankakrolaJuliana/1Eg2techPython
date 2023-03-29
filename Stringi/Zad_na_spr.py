@@ -56,7 +56,8 @@
 n=input("Napisz napis: ")
 T=list(n)
 T.sort()
-for i in range()
+for i in range(len(T)):
+  for j in range()
 
 # Zad.8
 # n=input("Napisz napis: ")
