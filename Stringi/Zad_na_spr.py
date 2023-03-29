@@ -68,12 +68,28 @@
 #     L.append(T[i])
 # print(L)
 
-g=input("Napisz: ")
-K= [0]*100
-for x in g:
-  K[ord(x)]+=1
-domi=max(K)
-  
+# def f(L, n):
+#   for x in L:
+#     if 0<L.count(x)<n:
+#       return True
+#   return False
+
+# g=input("Napisz: ")
+# K= [0]*100
+# for x in g:
+#   K[ord(x)]+=1
+# domi=max(K)
+# if sum(K)==max(K):
+#   print("Dominanta: ", chr(K.index(max(K))))
+# elif not f(K):
+#   print("Brak dominanty :(")
+# else:
+#   D=[]
+#   for i in K:
+#     if K[i]==max(K):
+#       D.append(chr(i))
+#   print("Dominanty: ", ", ", join(D))
+
 # Zad.8
 # n=input("Napisz napis: ")
 # T=list(n)
@@ -86,3 +102,21 @@ domi=max(K)
 #   print("Tak, ", ilo)
 # else:
 #   print("Nie")
+
+# x=0
+# i=0
+# while i>-1:
+#   print(x)
+#   x=x+1
+
+# Zad.
+n=input("Napisz napis: ")
+T=list(n)
+x=0
+L=[]
+suma=0
+for i in range(len(T)):
+  L.append(ord(T[i]))
+  x+=1
+for j in range(len(L)):
+  
