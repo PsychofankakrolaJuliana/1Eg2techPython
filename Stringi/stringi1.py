@@ -106,3 +106,4 @@
 # priorytecie wyższym lub równym
 # -nawias zawsze na sotos
 # -działania zawsze na wyjście
+
