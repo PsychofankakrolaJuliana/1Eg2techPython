@@ -107,7 +107,3 @@
 # -nawias zawsze na sotos
 # -działania zawsze na wyjście
 
-s = input("Napisz: ")
-A = list(s)
-B = A.copy()
-B.reverse()
