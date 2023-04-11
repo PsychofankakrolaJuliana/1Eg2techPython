@@ -107,3 +107,5 @@
 # -nawias zawsze na sotos
 # -działania zawsze na wyjście
 
+X=[0]*150
+Y=[0]*150
