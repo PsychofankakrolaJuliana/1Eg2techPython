@@ -107,3 +107,7 @@
 # -nawias zawsze na sotos
 # -działania zawsze na wyjście
 
+a=input("Mapisz: ")
+b=input("Napisz: ")
+X= [0]*150
+Y= [0]*150
