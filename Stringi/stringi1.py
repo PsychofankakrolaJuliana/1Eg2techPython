@@ -111,3 +111,10 @@ a=input("Mapisz: ")
 b=input("Napisz: ")
 X= [0]*150
 Y= [0]*150
+for i in a:
+  X[ord(a[i])]+=1
+for j in b:
+  Y[ord(b[j])]+=1
+if X==Y:
+  print("TAK")
+  
