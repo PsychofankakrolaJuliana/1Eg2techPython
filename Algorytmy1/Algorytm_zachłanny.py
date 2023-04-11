@@ -1,4 +1,4 @@
-# ALgorytmy1/Algorytm_zachłanny.py
+# Algorytmy1/Algorytm_zachłanny.py
 # Algorytm zachłanny - algorytm człowieczy
 
 # Wydawanie reszty: 
@@ -16,7 +16,7 @@
 
 # kw=int(input("Podaj kwote: "))
 # ilo=0
-# T=[500,200,100,50,20,10,5,2,1]]
+# T=[500,200,100,50,20,10,5,2,1]
 # for i in T:
 #   ilo=kw//i
 #   kw=kw-ilo*i
