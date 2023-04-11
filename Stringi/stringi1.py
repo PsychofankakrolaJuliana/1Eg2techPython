@@ -111,3 +111,6 @@ X=[0]*150
 Y=[0]*150
 a=input("Napisz: ")
 b=input("Napisz cos: ")
+for i in X:
+  for j in a:
+      
