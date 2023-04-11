@@ -107,10 +107,18 @@
 # -nawias zawsze na sotos
 # -działania zawsze na wyjście
 
-X=[0]*150
-Y=[0]*150
-a=input("Napisz: ")
-b=input("Napisz cos: ")
-for i in X:
-  for j in a:
-      
+# X=[0]*150
+# Y=[0]*150
+# a=input("Napisz: ")
+# b=input("Napisz cos: ")
+# for i in X:
+#   for j in a:
+#       if X[i]==ord(a[j]):
+#         X[i]+=1
+# for i in Y:
+#   for j in b:
+#       if Y[i]==ord(b[j]):
+#         Y[i]+=1
+# print(X)
+# print()
+# print(Y)
