@@ -117,4 +117,8 @@ for j in b:
   Y[ord(b[j])]+=1
 if X==Y:
   print("TAK")
-  
+else:
+  print("NIE")
+print(X)
+print()
+print(Y)
