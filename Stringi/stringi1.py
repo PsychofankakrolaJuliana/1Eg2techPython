@@ -106,19 +106,3 @@
 # priorytecie wyższym lub równym
 # -nawias zawsze na sotos
 # -działania zawsze na wyjście
-
-a=input("Mapisz: ")
-b=input("Napisz: ")
-X= [0]*150
-Y= [0]*150
-for i in a:
-  X[ord(a[i])]+=1
-for j in b:
-  Y[ord(b[j])]+=1
-if X==Y:
-  print("TAK")
-else:
-  print("NIE")
-print(X)
-print()
-print(Y)
