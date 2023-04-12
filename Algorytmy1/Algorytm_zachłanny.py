@@ -34,15 +34,3 @@
 #       W.append(i)
 # # opcjonalnie zamiast appenda w forze: W=W+ilo*T[i]
 # print(W)
-
-kw=int(input("POdaj: "))
-T=[500,200,100,50,20,10,5,2,1]
-ilo=0
-W=[]
-for i in T:
-  ilo=kw//i
-  if ilo>0:
-    kw=kw-ilo*i
-    for j in range(ilo):
-      W.append()
-print(W)
