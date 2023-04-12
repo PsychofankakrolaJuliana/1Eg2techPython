@@ -1,7 +1,7 @@
 # Algorytmy1/Algorytm_zachłanny.py
 # Algorytm zachłanny - algorytm człowieczy
 
-# Wydawanie reszty: 
+# Wydawanie reszty:
 # kw=int(input("Podaj kwote: "))
 # ilo=0
 # x=0
@@ -11,7 +11,7 @@
 #     if T[i]<kw:
 #       x=kw//T[i]
 #       kw=kw-T[i]*x
-#       print(f"{x}*{T[i]} ") 
+#       print(f"{x}*{T[i]} ")
 #     x=0
 
 # kw=int(input("Podaj kwote: "))
@@ -34,3 +34,5 @@
 #       W.append(i)
 # # opcjonalnie zamiast appenda w forze: W=W+ilo*T[i]
 # print(W)
+
+kw=int(input("Podaj: "))
