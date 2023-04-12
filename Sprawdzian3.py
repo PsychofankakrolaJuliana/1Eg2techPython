@@ -50,3 +50,15 @@
 #     T.remove(T[i])
 # x="".join(T)
 # print(x)
+
+# drugi sposob
+# x=input("Podaj slowo: ")
+# x=x.lower()
+# T=[0]*150
+# for i in T:
+#   T[ord(x[i])]+=1
+# for j in T:
+#   if T[j]>1:
+#     T[j]=1
+# x="".join(T)
+# print(x)
