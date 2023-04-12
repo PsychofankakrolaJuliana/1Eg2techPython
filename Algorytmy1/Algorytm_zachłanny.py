@@ -34,5 +34,3 @@
 #       W.append(i)
 # # opcjonalnie zamiast appenda w forze: W=W+ilo*T[i]
 # print(W)
-
-kw=int(input("Podaj: "))
