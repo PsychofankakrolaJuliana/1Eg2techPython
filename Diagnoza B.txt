@@ -74,7 +74,13 @@
 
 # - NAPISY
 # 1. Znajdź ilość liter C we wpisanym napisie
-
+n = input("Napisz napis: ")
+# n=list(n)
+# ilo=0
+# for i in n:
+#   if(n[i]=="C" or n[i]=="c"):
+#     ilo+=1
+# print(ilo)
 
 # 2. Sprawdź czy literki w napisie są w porządku nierosnącym: np ZOO, WOK, WODA itp
 # 3. Podaj najdłuższy z 3 wpisanych przez usera wyrazów.
