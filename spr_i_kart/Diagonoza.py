@@ -18,3 +18,32 @@
 #   if n%i==0:
 #     suma=suma+i
 # print(suma)
+
+# Zad.6
+# suma=0
+# n=int(input("Podaj liczbe: "))
+# for i in range(1,n):
+#   if n%i==0:
+#     suma=suma+i
+# if suma>n:
+#   print("Liczba jest dzielniko ujemna.")
+# else:
+#   print("Liczba nie jest dzielniko ujemna.")
+
+# Zad.7
+# a=int(input("Podaj licznik: "))
+# b=int(input("Podaj minownik: "))
+# c=int(input("Podaj licznik: "))
+# d=int(input("Podaj mianownik: "))
+# if(b!=d):
+#   c=c*b
+#   d=d*b
+#   a=a*d
+#   b=b*d
+# a=a+c
+# from math import gcd
+# x=gcd(a,b)
+# if x!=0:
+#   a=a//x
+#   b=b//x
+# print(f"{a}/{b}")
