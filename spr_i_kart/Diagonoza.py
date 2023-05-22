@@ -47,3 +47,30 @@
 #   a=a//x
 #   b=b//x
 # print(f"{a}/{b}")
+
+# Zad.8
+# n=input("Napisz napis: ")
+# T=list(n)
+# x=0
+# ilosc=0
+# for i in range(len(T)):
+#   x=ord(T[i])
+#   if x%2==0:
+#     ilosc=ilosc+1
+# print(ilosc)
+
+# Zad.9
+# ilosc=0
+# a=input("Napisz napis: ")
+# b=input("Napisz napis: ")
+# c=input("Napisz napis: ")
+# for i in a:
+#   ilosc=ilosc+1
+# for i in b:
+#   ilosc=ilosc+1
+# for i in c:
+#   ilosc=ilosc+1
+# if ilosc>20:
+#   print("TAK")
+# else:
+#   print("NIE")
