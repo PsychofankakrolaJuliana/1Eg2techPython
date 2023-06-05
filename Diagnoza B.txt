@@ -67,6 +67,17 @@
 #   print("Liczba jest złożona")
 
 # 3. Sprawdź czy wpisana przez usera liczba jest względnie pierwsza z 24
+a=int(input("Podaj liczbe: "))
+# b=24
+# while(a!=b):
+#   if a>b:
+#     a=a-b
+#   else:
+#     b=b-a
+# if a==1:
+#   print("Podana liczba jest wzglednie pierwsza z 24.")
+# else:
+#   print("Podana liczba nie jest wzglednie pierwsza z 24.")
 
 # 4. Zakoduj szyfrem CEZARA i kluczem k słowo s.
 # 5. Dodaj dwa ułamki a/b + c/d. Zapisz sumę jako ułamek nieskracalny i liczbę mieszaną.
