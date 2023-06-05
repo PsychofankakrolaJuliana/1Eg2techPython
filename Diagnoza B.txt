@@ -80,8 +80,19 @@ a=int(input("Podaj liczbe: "))
 #   print("Podana liczba nie jest wzglednie pierwsza z 24.")
 
 # 4. Zakoduj szyfrem CEZARA i kluczem k słowo s.
+
 # 5. Dodaj dwa ułamki a/b + c/d. Zapisz sumę jako ułamek nieskracalny i liczbę mieszaną.
+
 # 6. Znajdź NWW dwóch wpisanych przez usera liczb
+# a = int(input("Podaj a: "))
+# b = int(input("Podaj b: "))
+# c = a*b
+# while a!=b:
+#   if a>b:
+#     a=a-b
+#   elif b>a:
+#     b=b-a
+# print(c//a)
 
 # - NAPISY
 # 1. Znajdź ilość liter C we wpisanym napisie
@@ -94,6 +105,20 @@ a=int(input("Podaj liczbe: "))
 # print(ilo)
 
 # 2. Sprawdź czy literki w napisie są w porządku nierosnącym: np ZOO, WOK, WODA itp
+n=input("Napisz napis: ")
+# T=[]
+# x=0
+# y=0
+# for i in n:
+#   T[i]=ord(n[i])
+#   y=y+1
+# for j in range(1,T):
+#   if(T[j]>T[j-1]):
+#     x=x+1
+# if x==y:
+#   print("TAK")
+# else:
+#   print("NIE")
 
 # 3. Podaj najdłuższy z 3 wpisanych przez usera wyrazów.
 # a=input("Napisz napis: ")
