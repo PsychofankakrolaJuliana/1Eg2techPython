@@ -88,6 +88,28 @@
 # print(szyfr)
 
 # 5. Dodaj dwa ułamki a/b + c/d. Zapisz sumę jako ułamek nieskracalny i liczbę mieszaną.
+# a=int(input("Podaj liczbe: "))
+# b=int(input("Podaj liczbe: "))
+# c=int(input("Podaj liczbe: "))
+# d=int(input("Podaj liczbe: "))
+# x = d*b
+# while d!=b:
+#   if d>b:
+#     d=d-b
+#   elif b>d:
+#     b=b-d
+# x=x//b
+# a=a//b
+# c=c//d
+# l=a+c
+# if l%x==0:
+#   l=l//x
+# if l>x:
+#   e=l//x
+#   l=l-e*x
+#   print(e, l,"/",x)
+# else:
+#   print(l,"/",x)
 
 # 6. Znajdź NWW dwóch wpisanych przez usera liczb
 # a = int(input("Podaj a: "))
