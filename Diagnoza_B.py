@@ -80,6 +80,12 @@
 #   print("Podana liczba nie jest wzglednie pierwsza z 24.")
 
 # 4. Zakoduj szyfrem CEZARA i kluczem k słowo s.
+# s = input("Napisz napis: ")
+# k=int(input("Podaj klucz: "))
+# szyfr = ""
+# for i in range(len(s)):
+#   szyfr = szyfr + chr((ord(s[i])+ k))
+# print(szyfr)
 
 # 5. Dodaj dwa ułamki a/b + c/d. Zapisz sumę jako ułamek nieskracalny i liczbę mieszaną.
 
