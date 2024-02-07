@@ -1,6 +1,7 @@
 i = int(input("Podaj pole: "))
 p = int(input("Podaj ilość kroków: "))
 
+
 # Sposób.1:
 def NR(P, n):
   a = P / n
@@ -9,7 +10,10 @@ def NR(P, n):
     a = (a + b) / 2
     b = P / a
   return a
+
+
 print(NR(i, p))
+
 
 # Sposób.2:
 def NR2(P2, n2):
@@ -19,7 +23,10 @@ def NR2(P2, n2):
     a2 = (a2 + b2) / 2
     b2 = P2 / a2
   return a2
+
+
 print(NR2(i, p))
+
 
 # Sposób.3:
 def NR3(x, eps):
@@ -29,4 +36,6 @@ def NR3(x, eps):
     a = (a + b) / 2
     b = x / a
   return a
+
+
 print(NR3(i, p))
