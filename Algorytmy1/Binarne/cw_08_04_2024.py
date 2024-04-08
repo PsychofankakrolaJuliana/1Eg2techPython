@@ -69,5 +69,29 @@
 # else:
 #   print("parzyste")
 
-
 # Zad.3
+# a=input()
+# b=input()
+# wynik=""
+# for i in range(len(a)):
+#   if(a[i]=="1" and b[i]=="1"):
+#     wynik+="01"
+#   if(a[i]=="1" and b[i]=="0"):
+#     wynik+="1"
+#   if(a[i]=="0" and b[i]=="1"):
+#     wynik+="1"
+#   else:
+#     wynik+="0"
+# wynik.reverse()
+
+# x = input()
+# y = input()
+# w = ""
+# j = 0
+# for i in range(len(x), -1, -1):
+#   s = j + int(x[i]) + int(y[i])
+#   j = s // 2
+#   w = str(s % 2) + w
+# if(j>0):
+#   w = str(j) + w
+# print(w)
